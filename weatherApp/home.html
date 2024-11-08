@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/styles/home.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="weather-content">
+        <main class="weather-container">
+            <div>
+                <section class="top-banner">
+                    <div class="container">
+                        <h1 class="heading">What's the weather like today?</h1>
+                        <form>
+                            <input type="text" placeholder="Search for a city" autofocus>
+                            <button type="submit" id="SUBMIT">Find</button>
+                            <span class="msg"></span>
+                        </form>
+                    </div>
+                </section>
+                <section class="ajax-section">
+                    <div class="container">
+                        <ul class="cities">
+                            <li id="weatherList"></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    
+    
+    <script type="module" src="./resources/javascript/weatherApp.js"></script>
+    
+</body>
+</html>
